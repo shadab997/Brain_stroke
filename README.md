@@ -14,9 +14,14 @@ To predict the brain stroke of the persons based on attributes which are listed 
 10) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 11) stroke: 1 if the patient had a stroke or 0 if not
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
+## Libraries used
+1. NumPy
+2. Pandas
+3. Matplotlib
+4. Seaborn
 ## Methods used
 1. Random Forest Classifier
 2. XGBoost Classifier
 ## Result
-1. Accuracy Score from Random Forest Classifier is 94.78 %.
-2. Accuracy Score from XGBoost Classifier is 94.88 %.
+1. Accuracy Score from XGBoost Classifier is 94.88 %.
+2. Accuracy Score from Random Forest Classifier is 94.78 %. 
